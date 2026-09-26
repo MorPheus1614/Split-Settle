@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Angular / Frontend build outputs
+.angular/
+dist/
+/frontend/dist/
+/frontend/.angular/
+/frontend/node_modules/
+
+# .NET / Backend build outputs
+bin/
+obj/
+/backend/SplitSettle.API/bin/
+/backend/SplitSettle.API/obj/
+
+# IDE & Editor files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userossc
+
+# Logs & temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
